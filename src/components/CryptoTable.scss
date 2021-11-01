@@ -1,0 +1,31 @@
+.column-change {
+  display: flex;
+  align-items: center;
+  //   height: 100%;
+}
+
+.new-class {
+}
+
+.MuiToolbar-regular {
+  height: 0px !important;
+  min-height: 50px !important;
+}
+
+.MuiToolbar-regular {
+}
+
+.MuiTableRow-root {
+  background-color: white;
+  &:hover {
+    background-color: whitesmoke !important;
+  }
+}
+
+.MuiTable-root {
+}
+
+.MuiTableHead-root {
+  //   background-color: var(--secondary-blue) !important;
+  //   border-radius: 5px !important;
+}

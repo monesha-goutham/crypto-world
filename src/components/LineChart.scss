@@ -1,0 +1,21 @@
+.chart-container {
+  display: grid;
+  margin-bottom: 60px;
+
+  .chart__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .chart__title {
+      font-size: 30px;
+      font-weight: bold;
+      color: var(--secondary-blue);
+    }
+
+    .chart__price-container {
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+}

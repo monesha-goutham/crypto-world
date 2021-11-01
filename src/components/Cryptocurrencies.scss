@@ -1,0 +1,90 @@
+.cryptos--search {
+  display: flex;
+  // place-content: center;
+  padding-bottom: 40px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  .search-box {
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+    outline: none;
+    // width: 100%;
+    min-width: 200px;
+    color: gray;
+  }
+
+  .cryptos--view-btns {
+    display: flex;
+    align-items: center;
+    .view {
+      font-size: 30px;
+      padding-left: 15px;
+    }
+  }
+}
+
+.cryptos-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minMax(200px, 1fr));
+  //   place-items: center;
+  grid-gap: 20px;
+  //   padding: 20px;
+  place-content: center;
+
+  .crypto {
+    // display: flex;
+    // flex-direction: column;
+    // border: 1px solid lightgray;
+    background-color: white;
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+
+    .crypto__title {
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid whitesmoke;
+
+      .crypto__name {
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      .crypto__icon {
+        height: 30px;
+        width: 30px;
+      }
+    }
+    .crypto__body {
+      margin-top: 10px;
+      padding: 20px;
+      font-weight: lighter;
+
+      display: flex;
+      flex-direction: column;
+
+      .crypto__text {
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.cryptos-list {
+  display: flex;
+  flex-direction: column;
+
+  .cryptos-list__header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.view {
+}
